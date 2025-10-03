@@ -44,7 +44,8 @@
 #imports:
 from sys import exit, argv
 import re
-from pytube import YouTube
+from yt_dlp import YoutubeDL
+
 
 #main function
 def main():
@@ -61,8 +62,6 @@ def main():
     #trying to download except error
     download_yt(link)
 
-    print(argv[1])
-
 
 #checking the input
 def check_valid_link(link):
@@ -72,7 +71,30 @@ def check_valid_link(link):
 
 #downloading if the link is valid
 def download_yt(link):
-    ...
+    try:
+        # Options for yt-dlp
+        ydl_opts = {
+            "outtmpl": "Downloads/%(title)s.%(ext)s",  # Save in Downloads with video title
+            "format": "best",      # Get best quality available
+            "quiet": True,  # Suppress most logs
+            "no_warnings": True
+        }
+
+        with YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(link, download=False)   # Fetch metadata without downloading
+            title = info.get("title", "Unknown Title")
+
+            select = input(f"Is this the title of yt video you want to download: {title} [y/n] ").strip().lower()
+            if select not in ["y", "yes"]:
+                exit("❌ Cancelled. Choose another link.")
+
+            print("⬇️ Downloading your video...")
+            ydl.download([link])  # Actually download
+            print("✅ Download complete!")
+
+    except Exception as e:
+        print(f"⚠️ Something went wrong: {e}")
+
 
 
 if __name__ == "__main__":
