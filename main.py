@@ -41,10 +41,36 @@
 # -------------------------
 
 
-def main():
-    yt_link = input("Give Link to download Your video: ")
-    download_yt(yt_link)
+#imports:
+from sys import exit, argv
+import re
+from pytube import YouTube
 
+#main function
+def main():
+    #exit if there is no ClI Argument
+    if len(argv) != 2:
+        exit("To Run Paste the link of youtube Video")
+    link = argv[1]
+
+    #exit if our regex reject it
+    if not check_valid_link(link):
+        exit("The Link Is Not Valid....")
+
+
+    #trying to download except error
+    download_yt(link)
+
+    print(argv[1])
+
+
+#checking the input
+def check_valid_link(link):
+    pattern = r"(https?://)?(www\.)?(youtube\.com|youtu\.be)/.+"
+    return re.match(pattern, link) is not None
+
+
+#downloading if the link is valid
 def download_yt(link):
     ...
 
