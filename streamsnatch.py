@@ -16,6 +16,9 @@
 # TODO: Download video to Downloads folder✅
 # TODO: Show success/failure in terminal✅
 # TODO: write tests for the Functions so if anything Break I will Know (working on this)✅
+# TODO: CI PIPELINE ✅
+# TODO: CD PIPLINE
+# TODO: Seting Rules For Master Branch
 #
 # Milestone Commit: "feat: basic CLI YouTube downloader"✅
 # -------------------------
