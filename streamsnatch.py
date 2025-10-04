@@ -66,10 +66,7 @@ def main():
 
 #checking the input
 def check_valid_link(link):
-    #broken It For CI test Should Uncomment it After tests#
-    
-    #pattern = r"(https?://)?(www\.)?(youtube\.com|youtu\.be)/.+"
-    pattern = link
+    pattern = r"(https?://)?(www\.)?(youtube\.com|youtu\.be)/.+"
     return re.match(pattern, link) is not None
 
 #class logger to gernate errors
