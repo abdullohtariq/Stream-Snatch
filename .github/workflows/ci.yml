@@ -1,4 +1,4 @@
-name: Stream-Snatch CI
+name: CI
 
 on:
   push:
