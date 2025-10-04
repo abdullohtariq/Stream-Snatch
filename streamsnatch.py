@@ -16,6 +16,9 @@
 # TODO: Download video to Downloads folder✅
 # TODO: Show success/failure in terminal✅
 # TODO: write tests for the Functions so if anything Break I will Know (working on this)✅
+# TODO: CI PIPELINE ✅
+# TODO: CD PIPLINE
+# TODO: Seting Rules For Master Branch
 #
 # Milestone Commit: "feat: basic CLI YouTube downloader"✅
 # -------------------------
@@ -66,10 +69,7 @@ def main():
 
 #checking the input
 def check_valid_link(link):
-    #broken It For CI test Should Uncomment it After tests#
-    
-    #pattern = r"(https?://)?(www\.)?(youtube\.com|youtu\.be)/.+"
-    pattern = link
+    pattern = r"(https?://)?(www\.)?(youtube\.com|youtu\.be)/.+"
     return re.match(pattern, link) is not None
 
 #class logger to gernate errors
