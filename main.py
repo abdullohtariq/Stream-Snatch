@@ -12,11 +12,12 @@
 # STEP 1 - CLI TOOL
 # TODO: Take YouTube URL input from command line✅
 # TODO: Fetch video metadata (title, streams)✅
-# TODO: Let user pick resolution
+# TODO: Let user pick resolution✅
 # TODO: Download video to Downloads folder✅
 # TODO: Show success/failure in terminal✅
+# TODO: write tests for the Functions so if anything Break I will Know (working on this)
 #
-# Milestone Commit: "feat: basic CLI YouTube downloader"
+# Milestone Commit: "feat: basic CLI YouTube downloader"✅
 # -------------------------
 
 # -------------------------
@@ -39,7 +40,6 @@
 #
 # Milestone Commit: "chore: branding + first release build"
 # -------------------------
-
 
 #imports:
 from sys import exit, argv
@@ -141,7 +141,6 @@ def download_yt(link):
 
 
 
-
-
+# only run if if there is a main in file
 if __name__ == "__main__":
     main()
