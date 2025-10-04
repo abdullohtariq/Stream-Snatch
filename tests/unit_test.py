@@ -1,6 +1,6 @@
 # tests/test_main.py
 from unittest.mock import patch, MagicMock
-from main import check_valid_link, download_yt
+from streamsnatch import check_valid_link, download_yt
 
 def test_download_yt_valid_choice():
     fake_info = {
@@ -12,7 +12,7 @@ def test_download_yt_valid_choice():
     }
 
     # Mock YoutubeDL and shutil.which
-    with patch("main.YoutubeDL") as mock_ydl, patch("main.shutil.which", return_value=True):
+    with patch("streamsnatch.YoutubeDL") as mock_ydl, patch("streamsnatch.shutil.which", return_value=True):
         instance = mock_ydl.return_value.__enter__.return_value
         instance.extract_info.return_value = fake_info
         instance.download.return_value = None  # simulate download

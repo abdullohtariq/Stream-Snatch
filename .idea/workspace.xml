@@ -6,30 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ce67f672-68b8-4f87-a1da-b3cde9ffc772" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/_asyncio.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/libcrypto-3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/libffi-8.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/libssl-3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/python313.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/vcruntime140_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/zlib1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Downloads/Trump Gaza Peace Plan ｜ Red Line Deadline ｜ Ham@s Response ｜ US White House - Pakistan news.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamsnatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

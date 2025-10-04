@@ -15,7 +15,7 @@
 # TODO: Let user pick resolution✅
 # TODO: Download video to Downloads folder✅
 # TODO: Show success/failure in terminal✅
-# TODO: write tests for the Functions so if anything Break I will Know (working on this)
+# TODO: write tests for the Functions so if anything Break I will Know (working on this)✅
 #
 # Milestone Commit: "feat: basic CLI YouTube downloader"✅
 # -------------------------
