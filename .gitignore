@@ -5,6 +5,7 @@ __pycache__/
 *.pyd
 *.so
 
+
 # Virtual environment
 .venv/
 venv/
@@ -14,6 +15,7 @@ env/
 # IDE settings
 .idea/
 .vscode/
+*.iml
 
 # OS files
 *.DS_Store
